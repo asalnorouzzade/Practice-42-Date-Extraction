@@ -16,9 +16,9 @@ for result in results:
         day = result.group(4)
         
     else:
-        day = result.group(5)
-        month = result.group(6)
-        year = result.group(7)
+        day = result.group(6)
+        month = result.group(7)
+        year = result.group(8)
         
     print(f"{year}-{month}-{day}")
 
